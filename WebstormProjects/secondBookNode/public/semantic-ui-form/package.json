@@ -1,0 +1,44 @@
+{
+  "name": "semantic-ui-form",
+  "version": "2.1.7",
+  "title": "Semantic UI - Form",
+  "description": "Single component release of form",
+  "homepage": "http://www.semantic-ui.com",
+  "author": {
+    "name": "Jack Lukic",
+    "email": "jack@semantic-ui.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semantic-Org/UI-Form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "devDependencies": {},
+  "gitHead": "56496c3914af29ab9daee11f9d626ddd2ee51251",
+  "_id": "semantic-ui-form@2.1.7",
+  "scripts": {},
+  "_shasum": "dbca5ba689914e2c91563773ae407e8821646993",
+  "_from": "semantic-ui-form@>=2.1.7 <3.0.0",
+  "_npmVersion": "3.1.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "semantic-bot",
+    "email": "bot@semantic-ui.com"
+  },
+  "dist": {
+    "shasum": "dbca5ba689914e2c91563773ae407e8821646993",
+    "tarball": "https://registry.npmjs.org/semantic-ui-form/-/semantic-ui-form-2.1.7.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "semantic-bot",
+      "email": "bot@semantic-ui.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/semantic-ui-form/-/semantic-ui-form-2.1.7.tgz",
+  "readme": "ERROR: No README data found!"
+}
