@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+.first , .third{
+	padding-left: 8vmin;
+	padding-right:8vmin;
+	/* border:1px  red solid; */
+}
+.first .avatar{
+	margin-top:2vmax;
+	height:14vmin;
+	width:14vmin;
+	vertical-align:middle;
+}
+.first  img{
+	margin-bottom: 2vmax; 
+    margin-top: 2vmax; 
+	height:14vmin;
+	width:14vmin;
+	border-radius:50%;
+	vertical-align:middle;
+}
+.first  table{
+	float:right;
+	padding:0;
+	/* margin-bottom: 2vmax; */
+    margin-top: 2vmax;
+	height:15vmin;
+	width:60vmin;
+}
+.first table tr{
+	padding:0;
+	margin:0;
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 2vmax;/*字体大小  */
+}
+.first table tr .right_cell{
+	text-align:right;
+}
+.first .book_name{
+	font-size: 3vmax;
+	margin-top:2vmax;
+   	margin-bottom: 0;
+}
+.first .description{
+	font-size: 2vmax;
+	font-family: inherit;
+	margin-top:2vmax;
+	color: grey;
+}
+.second{
+	height:45vh;
+	margin-top:2vmax;
+}
+.second .unslider{
+	overflow:hidden;
+}
+.third{
+	font-size: 2vmax;
+	margin-top:2vmax;
+}
+.third ul{
+	padding:0;
+	margin:0;
+	height:16vh;
+}
+.third ul li{
+	list-style-type:none;
+	margin-bottom:1vh;
+	font-family: inherit;
+	color:gray;
+}
+canvas{
+	margin-top:10vh;
+	width:100vw;
+	height:80vh
+}
