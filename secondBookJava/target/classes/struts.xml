@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+		"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+		"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="false" />
+             <!-- <global-exception-mapping>
+             		<exception-mapping exception="" result="">
+             </global-exception-mapping> -->
+	<package name="bookInfo"  extends="struts-default"  namespace="/secondBook">
+
+		<global-results>
+             			<result name="bookNotFound">/error/bookNotFound.jsp</result>
+                         	</global-results>
+                            
+        		<action name="bookInfo"  class="cn.leancloud.action.SecondBookAction"  method="execute">
+           			 <result name="success">/bookInfo/bookInfo.jsp</result>
+      	             </action>
+                           
+                           <action name="bookWish" class="cn.leancloud.action.SecondBookWishAction" method="execute">
+                   		<result name="success">/bookInfo/bookWish.jsp</result>
+                           </action>
+                           
+	</package>
+
+	<package name="others" extends="struts-default">
+
+		<default-action-ref name="NoMappingAction"/>
+                           <action name="NoMappingAction">
+                           		<result>/error/noMapping.jsp</result>
+                           </action>
+
+	</package>
+
+</struts>
